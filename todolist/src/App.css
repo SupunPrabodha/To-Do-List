@@ -1,0 +1,142 @@
+/* General styling for the home container */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #252525; /* Dark background */
+  color: #b6b4b4; /* Light text color */
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* Transparent container for content */
+.container {
+  background-color: rgba(255, 253, 253, 0.1); /* Semi-transparent white */
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Heading styling */
+.home h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff; /* Bright text for headings */
+}
+
+/* Create form input styling */
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #424242;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  background-color: #1e1e1e; /* Dark input background */
+  color: #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.create_form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Create form button styling */
+.create_form button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #f53434;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.create_form button:hover {
+  background-color: #b40000;
+}
+
+/* Task list styling */
+.task {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  justify-content: space-between;
+  background-color: #1e1e1e; /* Dark background for tasks */
+  color: #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  margin-top: 10px;
+  transition: all 0.3s ease;
+}
+
+.task:hover {
+  transform: scale(1.02);
+}
+
+/* Checkbox styling */
+.checkbox {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox .icon {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #4caf50; /* Green for completed tasks */
+}
+
+.checkbox .icon:hover {
+  color: #388e3c;
+}
+
+/* Task text styling */
+.line_through {
+  text-decoration: line-through;
+  color: #757575; /* Dimmed text for completed tasks */
+}
+
+/* Trash icon styling */
+.task div span {
+  margin: 0 5px;
+}
+
+.task div .icon {
+  font-size: 20px;
+  color: #ff5252; /* Red for delete */
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.task div .icon:hover {
+  color: #d32f2f;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .home {
+    padding: 10px;
+  }
+
+  .create_form input {
+    width: 80%;
+  }
+
+  .task {
+    width: 100%;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
