@@ -30,7 +30,7 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
 - Create.jsx - Task creation page
 
 /public 
-   - index.html - React's entry point HTML
+      - index.html - React's entry point HTML
 - package.json - React dependencies
 
 ---
