@@ -85,12 +85,12 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
 
 ## Screenshots
 
-###To-Do List interface
+### To-Do List interface
 
 ![image](https://github.com/user-attachments/assets/af0a2bd1-2f23-4b68-b76e-d9b8a258de4c)
 
 
-###MongoDBCompass
+### MongoDBCompass
 
 ![image](https://github.com/user-attachments/assets/ac8c5459-7c6a-43ec-8146-ea06ae38d469)
 
