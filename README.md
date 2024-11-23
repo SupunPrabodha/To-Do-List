@@ -30,7 +30,7 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
 - Create.jsx - Task creation page
 
 /public 
-      - index.html - React's entry point HTML
+   - index.html - React's entry point HTML
 - package.json - React dependencies
 
 ---
@@ -74,9 +74,24 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
 
 ---
 
-### Additional Information
+## Additional Information
 
 - **Languages Used**: JavaScript, JSX, CSS
 - **Database**: MongoDB (using Mongoose for schema modeling)
 - **Server**: Node.js with Express.js
 - **Frontend Library**: React.js
+
+---
+
+## Screenshots
+
+###To-Do List interface
+
+![image](https://github.com/user-attachments/assets/af0a2bd1-2f23-4b68-b76e-d9b8a258de4c)
+
+
+###MongoDBCompass
+
+![image](https://github.com/user-attachments/assets/ac8c5459-7c6a-43ec-8146-ea06ae38d469)
+
+---
