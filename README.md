@@ -21,12 +21,17 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
 ## Project Structure
 /Server 
 - Models
-   - Todo.js        # Mongoose schema for tasks
-- index.js          # Backend entry point
+   - Todo.js - Mongoose schema for tasks
+- index.js - Backend entry point
 
-/todolist /src - App.jsx # Main React component - Home.jsx # Task display page - Create.jsx # Task creation page /public - index.html # React's entry point HTML - package.json # React dependencies
+/todolist /src 
+- App.jsx - Main React component
+- Home.jsx - Task display page
+- Create.jsx - Task creation page
 
-
+/public 
+   - index.html - React's entry point HTML
+- package.json - React dependencies
 
 ---
 
@@ -44,31 +49,34 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
    cd Server
 
 
-Install backend dependencies:
-bash
-Copy code
-npm install
-Start the backend server:
-bash
-Copy code
-node index.js
-The backend will run at http://localhost:5000 (or the port configured in your index.js).
-Frontend (Client)
-Navigate to the todolist folder:
-bash
-Copy code
-cd todolist
-Install frontend dependencies:
-bash
-Copy code
-npm install
-Start the React app:
-bash
-Copy code
-npm start
-The frontend will be available at http://localhost:3000.
-Additional Information
-Languages Used: JavaScript, JSX, CSS
-Database: MongoDB (using Mongoose for schema modeling)
-Server: Node.js with Express.js
-Frontend Library: React.js
+2. Install backend dependencies:
+   ```bash
+   npm install
+3. Start the backend server:
+   ```bash
+   node index.js
+4. The backend will run at `http://localhost:5000` (or the port configured in your `index.js`).
+
+---
+
+#### Frontend (Client)
+
+1. Navigate to the todolist folder:
+   ```bash
+   cd todolist
+2. Install frontend dependencies:
+   ```bash
+   npm install
+3. Start the React app:
+   ```bash
+   npm start
+4. The frontend will be available at `http://localhost:3000`.
+
+---
+
+### Additional Information
+
+- **Languages Used**: JavaScript, JSX, CSS
+- **Database**: MongoDB (using Mongoose for schema modeling)
+- **Server**: Node.js with Express.js
+- **Frontend Library**: React.js
