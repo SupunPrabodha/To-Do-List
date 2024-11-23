@@ -21,8 +21,8 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
 ## Project Structure
 /Server 
 - Models
-   - Todo.js # Mongoose schema for tasks
-- index.js # Backend entry point
+   - Todo.js        # Mongoose schema for tasks
+- index.js          # Backend entry point
 
 /todolist /src - App.jsx # Main React component - Home.jsx # Task display page - Create.jsx # Task creation page /public - index.html # React's entry point HTML - package.json # React dependencies
 
