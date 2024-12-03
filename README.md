@@ -74,7 +74,7 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
 
 ## Additional Information
 
-- **Languages Used**: JavaScript, JSX, CSS
+- **Languages Used**: **JavaScript**, **JSX**, **CSS**
 - **Database**: MongoDB (using Mongoose for schema modeling)
 - **Server**: Node.js with Express.js
 - **Frontend Library**: React.js
