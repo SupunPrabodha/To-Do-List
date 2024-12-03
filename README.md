@@ -47,8 +47,6 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
 1. Navigate to the `Server` folder:
    ```bash
    cd Server
-
-
 2. Install backend dependencies:
    ```bash
    npm install
@@ -69,7 +67,7 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
    npm install
 3. Start the React app:
    ```bash
-   npm start
+   npm run deb
 4. The frontend will be available at `http://localhost:3000`.
 
 ---
