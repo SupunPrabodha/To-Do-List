@@ -93,3 +93,5 @@ A full-stack Todo List application built using the **MERN stack** (MongoDB, Expr
 ![image](https://github.com/user-attachments/assets/ac8c5459-7c6a-43ec-8146-ea06ae38d469)
 
 ---
+
+⭐ If you like this project, don't forget to star it! ⭐
